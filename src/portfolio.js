@@ -20,28 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Nishant Narula",
+  title: "Hello, I'm Nishant",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+"I am a passionate Software Developer 🚀 dedicated to building robust, scalable web applications. My expertise lies in architecting distributed systems using Java and JavaScript, with a focus on Spring Boot, Microservices, and REST APIs. I love leveraging Apache Kafka to build real-time communication and exploring cutting-edge frameworks to solve complex engineering challenges."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1fR93--6NWzwgZzqvkQWYzOoEDQagL_-5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/nishant2narula",
+  linkedin: "https://www.linkedin.com/in/nishant-narula/",
+  gmail: "nishant2narula@gmail.com",
+  
+  
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,14 +44,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Senior Software Engineer | Specialist in Java, Spring Boot, & AI-Augmented Workflows",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ I specialize in end-to-end development for secure, high-performance REST APIs in Spring Boot and connecting them to dynamic front-ends that make sense for the end user"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Tech-forward developer who uses tools like GitHub Copilot to speed up the boring stuff, so I can spend more time on system architecture and solving the hard problems."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Manage CI/CD pipelines for streamlined development and deployment processes"
     )
   ],
 
@@ -65,36 +60,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Rest API",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "MicroServices",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
       skillName: "sql-database",
@@ -105,12 +84,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Spring-Boot",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "docker",
@@ -126,24 +101,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of South Florida",
+      logo: require("./assets/images/USF.jpg"),
+      subHeader: "Master of Science in Information Technology",
+      duration: "August 2017 - May 2019",
+      desc: "I graduated from the University of South Florida with a 3.95 GPA, focusing my studies on Java development, AWS cloud architecture, and cybersecurity. I pride myself on maintaining academic excellence while building a deep, hands-on technical foundation.",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "Dronacharya College of Engineering",
+      logo: require("./assets/images/DCU.webp"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "August 2011 - May 2015",
+      desc: "I graduated in the top 10% of my program, balancing my studies with a passion for hackathons and educational programs which helped me to have Hands-on approach in professional environment."    }
   ]
 };
 
@@ -154,15 +123,19 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend Development",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Database Management",
       progressPercentage: "60%"
+    },
+     {
+      Stack: "DevOps",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +147,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer",
+      company: "Virtusa - Citi (Client)",
+      companylogo: require("./assets/images/Virtusa.png"),
+      date: "June 2023 – January 2026",
+      desc: "Designed and developed high-availability RESTful APIs using Java and Spring Boot within a microservices ecosystem for enterprise banking workflows.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leveraged the use of GitHub Copilot’s AI-assisted suggestions to implement industry best practices, resulting in more maintainable codebases and a significant reduction in manual debugging time",
+        "Collaborated with DevOps to implement automated CI/ CD pipelines via Jenkins; enforced secure coding standards through rigorous code reviews and JUnit/ Mockito testing"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer",
+      company: "Amgen",
+      companylogo: require("./assets/images/Amgen.png"),
+      date: "Dec 2019 – May 2023",
+      desc: "Developed Spring Boot microservices to process and visualize complex healthcare data, focusing on enterprise-level scalability and maintainability.",
+      descBullets: [
+        "Worked within cross-functional engineering teams to ensure services were well-integrated into existing platforms while strictly adhering to SDLC processes and Agile methodologies.",
+        "Implemented robust backend logic utilizing Spring MVC and Spring Data JPA to support critical healthcare applications."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Biorasi",
+      companylogo: require("./assets/images/Biorasi.png"),
+      date: "July 2019 – Dec 2019",
+      desc: "Assisted in the migration of legacy monolithic applications to a modern, microservice-based architecture using the Spring Framework."
     }
   ]
 };
@@ -206,7 +183,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +216,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +277,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +301,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +320,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +333,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,22 +342,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1(813)585-7729",
+  email_address: "nishant2narula@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
