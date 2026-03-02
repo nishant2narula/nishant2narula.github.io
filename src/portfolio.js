@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
 "I am a passionate Software Developer 🚀 dedicated to building robust, scalable web applications. My expertise lies in architecting distributed systems using Java and JavaScript, with a focus on Spring Boot, Microservices, and REST APIs. I love leveraging Apache Kafka to build real-time communication and exploring cutting-edge frameworks to solve complex engineering challenges."),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1fR93--6NWzwgZzqvkQWYzOoEDQagL_-5", 
+    "https://drive.google.com/uc?export=download&id=1Tj-mIGbq0L4kw1hi9H8Le0gJ_Ey2xntC", 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
