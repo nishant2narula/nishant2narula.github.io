@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
 "I am a passionate Software Developer 🚀 dedicated to building robust, scalable web applications. My expertise lies in architecting distributed systems using Java and JavaScript, with a focus on Spring Boot, Microservices, and REST APIs. I love leveraging Apache Kafka to build real-time communication and exploring cutting-edge frameworks to solve complex engineering challenges."),
   resumeLink:
-    "https://drive.google.com/file/d/1fR93--6NWzwgZzqvkQWYzOoEDQagL_-5/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1fR93--6NWzwgZzqvkQWYzOoEDQagL_-5", 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -340,7 +340,8 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  resumeLink:
+  "https://drive.google.com/file/d/1fR93--6NWzwgZzqvkQWYzOoEDQagL_-5/view?usp=sharing", // Set to empty to hide the button
   // Please Provide with Your Podcast embeded Link
   display: false // Set false to hide this section, defaults to true
 };
